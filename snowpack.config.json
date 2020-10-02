@@ -3,5 +3,8 @@
   "install": ["styled-components"],
   "alias": {
     "reflexbox": "reflexbox/src"
+  },
+  "installOptions": {
+    "namedExports": ["@crave"]
   }
 }

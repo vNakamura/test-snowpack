@@ -3,7 +3,7 @@ import { Flex, Box } from 'reflexbox';
 import logo from './logo.svg';
 import './App.css';
 
-import Card from '@crave/farmblocks-card';
+import Card from './Card';
 
 function App() {
   return (
