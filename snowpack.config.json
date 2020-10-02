@@ -1,4 +1,7 @@
 {
   "extends": "@snowpack/app-scripts-react",
-  "plugins": []
+  "install": ["styled-components"],
+  "alias": {
+    "reflexbox": "reflexbox/src"
+  }
 }

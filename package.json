@@ -7,13 +7,18 @@
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
+    "@crave/farmblocks-card": "^3.1.11",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "reflexbox": "^4.0.6",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "@snowpack/app-scripts-react": "^1.11.0",
+    "@snowpack/plugin-webpack": "^2.0.13",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/react": "^10.0.3",
+    "babel-plugin-styled-components": "^1.11.1",
     "jest": "^26.2.2",
     "prettier": "^2.0.5",
     "snowpack": "^2.12.0"
